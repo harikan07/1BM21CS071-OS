@@ -5,7 +5,7 @@ void main()
 	float avgWT=0,avgTA=0;
 	printf("Enter the number of processors\n");
 	scanf("%d",&n);
-	printf("Enter the processor id and burst time\n");
+	printf("Enter the process id and burst time\n");
 	for(i=0;i<n;i++)
 	{
 		scanf("%d",&pid[i]);
@@ -15,7 +15,7 @@ void main()
 	printf("\nAccording to First come first serve schedule");
 	for(i=0;i<n;i++)
 	{
-		printf("\nprocessor id %d",pid[i]);
+		printf("\nprocess id %d",pid[i]);
 		printf("\nburst time %d \n",burst[i]);
 	}	
 		
