@@ -50,7 +50,7 @@ void main()
     wt[0]=0;
     for(i=1;i<n;i++)
     {
-        wt[i]=wt[i-1]+burst[i-1]-arr[i-1];
+        wt[i]=wt[i-1]+burst[i-1]-arr[i];
     }
     for(i=0;i<n;i++)
     {
